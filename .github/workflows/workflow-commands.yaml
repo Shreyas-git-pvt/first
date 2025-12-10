@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   testing-wf-commads:
-    runs-on: ubunt-latest
+    runs-on: ubuntu-latest
     steps:
         - name: setting an error message
           run: echo "::error::Missing semicolon"
